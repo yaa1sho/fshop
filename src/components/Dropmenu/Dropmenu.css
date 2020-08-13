@@ -1,0 +1,79 @@
+
+#checkbox-menu ,
+.toggle{
+    display: none;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.menu li a {
+    color: darkslategray;
+    align-self: center;
+    font-size: 13px;
+    padding: 8px 10px;
+    transition: background .2s linear;
+}
+
+.menu li a:hover {
+    background: dimgray;
+    border-radius: 3px;
+}
+
+.menu li a.catalog {
+    font-size: 11px;
+    margin-right: 14px;
+}
+
+.menu li a.first {
+    margin-right: 14px;
+}
+
+.toggle {
+    clear: both;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    color: black;
+    background: white;
+    transition: all .1s linear;
+}
+
+.toggle:hover {
+    background: pink;
+}
+
+#checkbox-menu:checked + label .touch li {
+    opacity: 1;
+    visibility: visible;
+    justify-content: space-around;
+}
+
+#checkbox-menu:checked + label .touch {
+    height: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 20px;
+    transition: height .3s linear;
+}
+
+.menu li {
+    display: flex;
+    align-self: center;
+    opacity: 0;
+    visibility: hidden;
+}

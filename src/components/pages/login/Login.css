@@ -1,0 +1,48 @@
+
+h3, label {
+    color: #282c34;
+    font-family:  "Roboto Light", w font-weightbold;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a{
+    color: #435160;
+    text-decoration: none;
+}
+
+.custom-control-label{
+    margin-right: 200px;
+}
+
+.form-group {
+    width: 350px;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    margin-left: -175px;
+}
+
+.form-group input [type="text"] [type="submit"] {
+    width: 350px;
+    border-bottom: 1px solid #435160;
+    color: #6D7781;
+}
+
+.form-group label {
+    display: block;
+    position: relative;
+}
+
+.btn{
+    width: 350px;
+    margin: auto;
+    position: center;
+    display: block;
+
+}
+.forgot-password{
+    display: inline;
+
+}
