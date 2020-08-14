@@ -20,22 +20,14 @@
     align-self: center;
     font-size: 13px;
     padding: 8px 10px;
-    transition: background .2s linear;
+    transition: background .2s linear;   
 }
 
 .menu li a:hover {
-    background: dimgray;
-    border-radius: 3px;
+    background: crimson;
+    border-radius: 2px;
 }
 
-.menu li a.catalog {
-    font-size: 11px;
-    margin-right: 14px;
-}
-
-.menu li a.first {
-    margin-right: 14px;
-}
 
 .toggle {
     clear: both;
@@ -53,7 +45,7 @@
 }
 
 #checkbox-menu:checked + label .touch li {
-    opacity: 1;
+    opacity: 10;
     visibility: visible;
     justify-content: space-around;
 }

@@ -18,12 +18,12 @@ export default class Header extends Component{
                      <div>
 
                          <Router>
-                             <div className="App">
+                             <div>
                                  <nav className={"navbar navbar-expand-lg navbar-light"}>
                                      <div className="container">
                                          <Link className="navbar-brand" to={"/"}>
                                                  <span className={"home-logo"}>
-                                                         <img  src={logo} alt={"Home"}
+                                                         <img className="img-home"  src={logo} alt={"Home"}
                                                          />
                                                  </span>
                                          </Link>
@@ -44,7 +44,7 @@ export default class Header extends Component{
                                          </div>
 
                                      </div>
-                                 </nav><hr className={"nav-end"}/>
+                                 </nav>
 
                              <div className="auth-wrapper">
                                  <div className="auth-inner">

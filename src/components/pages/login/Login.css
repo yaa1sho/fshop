@@ -35,14 +35,10 @@ a{
     position: relative;
 }
 
-.btn{
+.btn, .forgot-password{
     width: 350px;
     margin: auto;
     position: center;
     display: block;
-
-}
-.forgot-password{
-    display: inline;
 
 }

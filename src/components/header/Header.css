@@ -1,26 +1,10 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "Roboto Light";
-}
-
-.nav-end{
-    margin: 1px;
-    border: 1px solid dimgray;
-}
 
 .home-logo button{
     display: inline-flex;
     padding: 0.5em 1em;
-    border: 1px solid #d4d4d4;
+    border: 1px;
     font: 11px/normal sans-serif;
     border-radius: 5px;
-}
-
-.home-logo{
-    padding: 0.5em 1em;
-    resize: vertical;
-    color: #282c34;
 }
 
 .home-logo img{
@@ -34,6 +18,8 @@
     margin: 0;
     height: 100px;
     display: flex;
+    border-block: 2px;
+    margin-bottom: 30px;
 }
 
 .nav-search{
