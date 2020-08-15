@@ -7,7 +7,7 @@ export default class Main extends React.Component {
     return (
       <div>
         <div id="window">
-          <p>ПОСОСИ</p>
+          <p>MAIN</p>
         </div>
 
         <a href="#window" />

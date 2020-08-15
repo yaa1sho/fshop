@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "../public/2300991.jpg";
+import logo from "../public/logo192.png";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import "./Header.css";
